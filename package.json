@@ -1,0 +1,21 @@
+{
+  "name": "division",
+  "version": "1.0.0",
+  "description": "Simple Node application that divides two numbers, with Jest unit tests",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "node",
+    "jest",
+    "testing"
+  ],
+  "author": "Akseli Polojärvi",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
